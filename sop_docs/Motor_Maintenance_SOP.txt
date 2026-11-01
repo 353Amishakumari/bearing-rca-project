@@ -1,0 +1,143 @@
+INDUSTRIAL INDUCTION MOTOR MAINTENANCE SOP
+==========================================
+
+SYSTEM PURPOSE:
+This Standard Operating Procedure (SOP) provides engineering guidance for
+industrial squirrel-cage induction motor defects identified through infrared
+radiometric thermography, electrical signature telemetry, and condition monitoring.
+
+Monitored Conditions:
+1. Shaft Misalignment (MISALIGNMENT)
+2. Broken Rotor Bars (BROKEN_ROTOR)
+3. Normal Motor Operation (MOTOR_NORMAL)
+
+
+==================================================
+1. SHAFT MISALIGNMENT (MISALIGNMENT)
+==================================================
+
+Fault Code:
+MISALIGNMENT
+
+Fault Description:
+Geometric axis deviation between the motor drive shaft and driven machine shaft
+(parallel offset, angular deflection, or combination misalignment).
+
+Severity:
+HIGH
+
+Possible Root Causes:
+- Thermal growth differential between motor and driven machine feet during load.
+- Soft foot condition (uneven contact between motor feet and base frame).
+- Inaccurate initial mechanical alignment during installation.
+- Pipe strain, ductwork forces, or dynamic coupling degradation.
+- Shifting foundation bolts or mechanical settling over operational cycles.
+
+Typical Symptoms:
+- Pronounced left-to-right axial thermal gradient across the coupling face.
+- Temperature rise concentrated on drive-end bearing housing and flexible coupling.
+- Elevated 1X and 2X rotational frequency vibration in radial and axial planes.
+- Accelerated bearing raceway edge loading and coupling insert wear.
+
+Inspection Procedure:
+1. Measure coupling temperature and record axial thermal differential across coupling halves.
+2. Check for soft foot using a dial indicator or precision laser alignment gauge (max allowable 0.05 mm).
+3. Perform laser shaft alignment measuring both vertical and horizontal parallel offset and angular gap.
+4. Inspect flexible coupling insert/elastomer spider for shredding, wear particles, or thermal melting.
+5. Verify torque specifications on motor hold-down bolts.
+
+Immediate Safety Action:
+1. If coupling temperature exceeds 80°C or vibration RMS exceeds ISO 10816-3 Zone C limits, initiate controlled ramp-down.
+2. Tag out and lock out (LOTO) motor drive supply prior to opening coupling guards.
+3. Allow coupling to cool to ambient temperature before disassembling coupling bolts.
+
+Corrective Maintenance:
+1. Loosen motor hold-down bolts and clean shim packs beneath all feet.
+2. Correct soft foot using precision stainless steel shims.
+3. Align shafts using reverse indicator method or dual-laser alignment tool within 0.05 mm offset and 0.04 mm/100 mm angular tolerance.
+4. Replace damaged flexible coupling elements.
+5. Re-torque hold-down bolts in criss-cross pattern to specified Nm values.
+
+Preventive Maintenance:
+1. Conduct monthly thermal imaging scans of coupling and drive-end bearing.
+2. Perform vibration spectrum check for 2X harmonic peaks during scheduled PM intervals.
+3. Recalculate cold-to-hot thermal alignment offsets after major operating cycle changes.
+
+
+==================================================
+2. BROKEN ROTOR BARS (BROKEN_ROTOR)
+==================================================
+
+Fault Code:
+BROKEN_ROTOR
+
+Fault Description:
+Cracking, partial separation, or complete rupture of squirrel-cage rotor conductor
+bars or end-rings due to cyclic mechanical and thermal fatigue.
+
+Severity:
+CRITICAL
+
+Possible Root Causes:
+- Frequent direct-on-line (DOL) starts causing severe thermal expansion and bar mechanical stress.
+- Cyclic magnetic forces from high-inertia mechanical loads.
+- Casting porosity, air voids, or manufacturing defects in die-cast aluminum/copper rotor cages.
+- Persistent motor overloading and excessive operating temperatures.
+- Rotor bar vibration in rotor laminations due to loose bar fit.
+
+Typical Symptoms:
+- Localized thermal hotspots along the motor frame corresponding to rotor bar positions.
+- Sideband frequencies around electrical supply fundamental (f_b = f_L * (1 ± 2s)) in vibration and current spectra.
+- Fluctuating motor current, cyclic rotational rumble, and torque ripple under load.
+- Reduced starting torque and extended acceleration times.
+
+Inspection Procedure:
+1. Measure localized frame temperature using thermal imaging to identify non-uniform stator heating patterns.
+2. Conduct Motor Current Signature Analysis (MCSA) to measure decibel difference between fundamental line frequency (50/60 Hz) and pole-pass sidebands.
+3. Perform a single-phase rotor rotation test (measuring current variation as rotor is manually turned).
+4. Perform core flux leakage testing if rotor is pulled during teardown.
+5. Inspect end-ring brazed joints and bar junctions with non-destructive dye penetrant testing (DPT).
+
+Immediate Safety Action:
+1. High risk of secondary stator core damage from broken bar centrifugal ejection: plan scheduled shutdown immediately.
+2. Prohibit motor restarts or direct-on-line re-energization if broken rotor bars are suspected.
+3. Verify insulation resistance and stator thermal indicators prior to any restart attempts.
+
+Corrective Maintenance:
+1. Remove motor from drive line and disassemble rotor into a clean workshop environment.
+2. Inspect rotor cage for severed bars, loose lamination punchings, and end-ring fractures.
+3. For fabricated copper rotors: replace damaged bars and TIG/laser re-braze into end rings with silver alloy.
+4. For die-cast aluminum rotors: replace rotor assembly if two or more adjacent bars are fractured.
+5. Dynamically balance rotor assembly to ISO 1940 Grade G2.5 prior to re-installation.
+
+Preventive Maintenance:
+1. Limit direct-on-line start cycles per hour according to NEMA MG-1 / IEC 60034 guidelines.
+2. Utilize Variable Frequency Drive (VFD) soft-start acceleration profiles where feasible.
+3. Monitor periodic MCSA decibel margins (sidebands within 35 dB of fundamental indicate urgent maintenance required).
+
+
+==================================================
+3. NORMAL MOTOR OPERATION (MOTOR_NORMAL)
+==================================================
+
+Fault Code:
+MOTOR_NORMAL
+
+Fault Description:
+Motor electromechanical drive operates within standard thermal, mechanical,
+and vibration specifications according to IEC 60034-1 and ISO 10816-3.
+
+Severity:
+NORMAL / LOW
+
+Operating Baseline Thresholds:
+- Thermal Gradient: Uniform thermal dissipation across housing (< 4°C differential).
+- Hotspot Temperature: Below insulation class thermal rating (Class F: max 105°C rise).
+- Vibration Severity: ISO 10816-3 Zone A/B (< 2.3 mm/s RMS for medium machinery).
+- Acoustic Level: Normal continuous hum without periodic pulsing or modulated rumble.
+
+Routine Maintenance Actions:
+1. Maintain regular infrared condition monitoring schedule (quarterly baseline comparison).
+2. Ensure cooling fins and fan cowl remain clear of dirt, dust, and oily debris.
+3. Check terminal box connection tightness and cable gland integrity.
+4. Monitor ambient temperature and ventilation airflow around the motor body.

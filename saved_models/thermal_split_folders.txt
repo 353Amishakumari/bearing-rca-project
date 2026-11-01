@@ -1,0 +1,49 @@
+THERMAL DATASET — EXPERIMENT-FOLDER SPLIT RECORD
+==================================================
+TRAIN folders:
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_1\current-load-2A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_1\current-load-4A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_1\misalignment-current-load-0A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_1\misalignment-current-load-2A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_1\misalignment-current-load-6A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_1\start-up-current-load-0A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_1\start-up-current-load-0A-2
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\current-load-0A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\current-load-2A-2
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\current-load-4A-2
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\current-load-6A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-2-current-load-2A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-2-current-load-4A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-3-current-load-0A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-3-current-load-2A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-3-current-load-6A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-current-load-0A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-current-load-4A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-current-load-6A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-1-current-load-0A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-1-current-load-0A-coupling-tightened
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-1-current-load-2A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-1-current-load-6A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-3-current-load-0A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-3-current-load-2A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-6-current-load-0A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-6-current-load-6A
+
+VAL folders (checkpoint selection only):
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\current-load-4A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\current-load-6A-2
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-2-current-load-0A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-2-current-load-6A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-3-current-load-4A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-3-current-load-6A
+
+TEST folders (held out, final evaluation only):
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_1\current-load-6A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_1\misalignment-current-load-4A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\current-load-0A-2
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\current-load-2A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-3-current-load-4A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\misalignment-current-load-2A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-1-current-load-4A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-6-current-load-2A
+  C:\Users\KIIT\Documents\bearing-rca-project\dataset\thermal_squirrel_cage\thermal_images\coupling_2\rotor-6-current-load-4A

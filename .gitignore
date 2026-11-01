@@ -1,0 +1,32 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+.env
+.streamlit/secrets.toml
+.vscode/
+
+# Dataset
+dataset/
+
+# ChromaDB
+chroma_db/
+
+# Ignore large models by default
+saved_models/*
+
+# Include vibration and thermal CNN models
+!saved_models/bearing_cnn.pth
+!saved_models/radiometric_thermal_cnn.pt
+!saved_models/confusion_matrix.png
+!saved_models/eval_summary.txt
+!saved_models/thermal_confusion_matrix.png
+!saved_models/thermal_eval_summary.txt
+!saved_models/thermal_split_folders.txt
+!saved_models/y_pred.npy
+!saved_models/y_true.npy
+
+*.log
+.DS_Store
+saved_models/deberta_scada_model/

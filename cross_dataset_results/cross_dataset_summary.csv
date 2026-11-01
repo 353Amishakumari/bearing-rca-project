@@ -1,0 +1,6 @@
+class,precision,recall,f1,support
+Normal,1.0,1.0,1.0,1656
+Inner Race,1.0,1.0,1.0,356
+Ball,1.0,1.0,1.0,355
+Outer Race,1.0,1.0,1.0,356
+Macro Average,1.0,1.0,1.0,2723

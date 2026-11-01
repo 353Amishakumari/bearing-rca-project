@@ -1,0 +1,239 @@
+INDUSTRIAL BEARING MAINTENANCE SOP
+==================================
+
+SYSTEM PURPOSE
+This SOP provides maintenance guidance for industrial bearing fault conditions detected through vibration and multimodal condition monitoring.
+
+The system identifies four operating conditions:
+1. Normal Operating Condition
+2. Inner Race Fault (IR007)
+3. Ball / Rolling Element Fault (B007)
+4. Outer Race Fault (OR007)
+
+
+==================================================
+1. INNER RACE FAULT (IR007)
+==================================================
+
+Fault Code:
+IR007
+
+Fault Description:
+Damage or abnormal condition associated with the inner race of the bearing.
+
+Severity:
+HIGH
+
+Possible Root Causes:
+- Excessive radial load
+- Shaft misalignment
+- Improper press-fit mounting
+- Inadequate lubrication
+- Incorrect bearing installation
+
+Typical Symptoms:
+- Increased vibration
+- Abnormal bearing noise
+- Increased operating temperature
+- Repetitive vibration pattern
+- Progressive deterioration during operation
+
+Inspection Procedure:
+- Check shaft alignment.
+- Measure shaft runout using a dial indicator.
+- Inspect bearing mounting and press-fit condition.
+- Check lubrication flow and lubricant condition.
+- Inspect the bearing inner race for visible damage or wear.
+
+Immediate Safety Action:
+- Shut down the drive motor if vibration or temperature reaches unsafe levels.
+- Prevent continued operation under severe fault conditions.
+- Follow plant lockout/tagout procedures before physical inspection.
+
+Corrective Maintenance:
+- Correct shaft alignment.
+- Restore proper lubrication.
+- Correct improper bearing mounting.
+- Replace the bearing if inner race damage is confirmed.
+
+Preventive Maintenance:
+- Perform periodic shaft alignment inspection.
+- Monitor vibration trends.
+- Maintain scheduled lubrication.
+- Verify correct bearing installation during maintenance.
+
+
+==================================================
+2. BALL / ROLLING ELEMENT FAULT (B007)
+==================================================
+
+Fault Code:
+B007
+
+Fault Description:
+Abnormal condition or damage associated with bearing balls or rolling elements.
+
+Severity:
+HIGH
+
+Possible Root Causes:
+- Particle contamination
+- Electrical discharge fluting
+- Lubricant breakdown
+- Inadequate lubrication
+- Excessive operating load
+
+Typical Symptoms:
+- Increased vibration
+- Abnormal mechanical noise
+- Increased bearing temperature
+- Irregular vibration pattern
+- Reduced bearing operating life
+
+Inspection Procedure:
+- Inspect lubricant for contamination.
+- Check bearing housing for foreign particles.
+- Inspect rolling elements for wear or surface damage.
+- Check lubricant condition.
+- Inspect for evidence of electrical discharge damage.
+- Review recent vibration trends.
+
+Immediate Safety Action:
+- Stop operation if vibration becomes excessive.
+- Isolate the machine before physical bearing inspection.
+- Follow plant safety and lockout/tagout procedures.
+
+Corrective Maintenance:
+- Flush contaminated housing.
+- Replace contaminated or degraded lubricant.
+- Replace damaged rolling elements or bearing.
+- Investigate and eliminate the source of contamination.
+
+Preventive Maintenance:
+- Maintain clean lubrication systems.
+- Use appropriate lubricant.
+- Monitor lubricant condition.
+- Perform periodic vibration monitoring.
+- Protect bearing assemblies from contamination.
+
+
+==================================================
+3. OUTER RACE FAULT (OR007)
+==================================================
+
+Fault Code:
+OR007
+
+Fault Description:
+Damage or abnormal condition associated with the outer race of the bearing.
+
+Severity:
+HIGH
+
+Possible Root Causes:
+- Housing distortion
+- Loose fitment
+- Heavy external vibration
+- Improper bearing installation
+- Excessive mechanical loading
+
+Typical Symptoms:
+- Increased vibration
+- Abnormal bearing noise
+- Increased temperature
+- Repetitive vibration pattern
+- Progressive bearing deterioration
+
+Inspection Procedure:
+- Inspect housing bore dimensions.
+- Check bearing fitment.
+- Inspect housing for distortion or damage.
+- Check mounting bolts and mechanical supports.
+- Inspect surrounding equipment for excessive external vibration.
+- Review vibration trend history.
+
+Immediate Safety Action:
+- Shut down the machine when vibration reaches unsafe levels.
+- Isolate the equipment before inspection.
+- Follow plant lockout/tagout procedures.
+
+Corrective Maintenance:
+- Correct loose bearing fitment.
+- Repair or replace damaged housing components.
+- Apply appropriate torque to mounting components.
+- Install vibration-damping supports where required.
+- Replace the bearing if outer race damage is confirmed.
+
+Preventive Maintenance:
+- Periodically inspect housing dimensions.
+- Verify bearing fitment.
+- Monitor external vibration sources.
+- Check mounting torque during scheduled maintenance.
+- Maintain vibration trend records.
+
+
+==================================================
+4. NORMAL OPERATING CONDITION
+==================================================
+
+Fault Code:
+NORMAL
+
+Fault Description:
+Bearing operating within the expected monitored condition without a detected fault.
+
+Severity:
+LOW
+
+Possible Root Causes:
+- No abnormal bearing condition detected.
+
+Typical Symptoms:
+- Stable vibration
+- Normal operating temperature
+- No significant abnormal mechanical noise
+- Stable operating condition
+
+Inspection Procedure:
+- Continue routine vibration monitoring.
+- Check operating temperature periodically.
+- Review historical vibration trends.
+- Inspect lubrication condition according to maintenance schedule.
+
+Immediate Safety Action:
+- No emergency shutdown required when operating conditions remain within acceptable limits.
+
+Corrective Maintenance:
+- No corrective maintenance required unless abnormal trends are detected.
+
+Preventive Maintenance:
+- Perform routine monthly vibration checks.
+- Maintain scheduled grease replenishment.
+- Monitor vibration and temperature trends.
+- Follow applicable plant maintenance procedures.
+- Maintain historical maintenance records.
+
+
+==================================================
+GENERAL INDUSTRIAL MAINTENANCE GUIDELINES
+==================================================
+
+1. Always follow plant safety procedures before inspecting rotating machinery.
+
+2. Use lockout/tagout procedures before performing physical maintenance.
+
+3. Do not rely on a single sensor reading for critical maintenance decisions.
+
+4. Compare current vibration readings with historical operating trends whenever available.
+
+5. A high-confidence AI prediction should be treated as a diagnostic aid and should be verified through appropriate physical inspection.
+
+6. If vibration, temperature, noise, or other operating conditions indicate severe deterioration, escalate the issue to the responsible maintenance engineer.
+
+7. Record detected fault code, probable root cause, inspection findings, corrective action, and maintenance date for future analysis.
+
+8. Replace damaged bearings according to plant maintenance procedures and equipment specifications.
+
+9. Maintain clean lubrication systems and prevent contamination.
+
+10. Use condition-based maintenance whenever sufficient sensor and historical data are available.

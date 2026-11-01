@@ -1,0 +1,60 @@
+5-FOLD GROUP CROSS-VALIDATION RESULTS
+============================================================
+
+Number of folds: 5
+Number of groups: 13
+Device: cpu
+
+Fold 1
+Accuracy: 100.00%
+Precision: 100.00%
+Recall: 100.00%
+F1: 100.00%
+
+Fold 2
+Accuracy: 100.00%
+Precision: 100.00%
+Recall: 100.00%
+F1: 100.00%
+
+Fold 3
+Accuracy: 100.00%
+Precision: 100.00%
+Recall: 100.00%
+F1: 100.00%
+
+Fold 4
+Accuracy: 100.00%
+Precision: 100.00%
+Recall: 100.00%
+F1: 100.00%
+
+Fold 5
+Accuracy: 25.05%
+Precision: 33.33%
+Recall: 33.33%
+F1: 33.33%
+
+MEAN +/- STANDARD DEVIATION
+Accuracy: 85.01% +/- 29.98%
+Precision: 86.67% +/- 26.67%
+Recall: 86.67% +/- 26.67%
+F1: 86.67% +/- 26.67%
+
+OVERALL CONFUSION MATRIX
+[[1656    0    0    0]
+ [   0  356    0    0]
+ [   0    0  355    0]
+ [   0    0  356    0]]
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+      Normal     1.0000    1.0000    1.0000      1656
+  Inner Race     1.0000    1.0000    1.0000       356
+        Ball     0.4993    1.0000    0.6660       355
+  Outer Race     0.0000    0.0000    0.0000       356
+
+    accuracy                         0.8693      2723
+   macro avg     0.6248    0.7500    0.6665      2723
+weighted avg     0.8040    0.8693    0.8257      2723

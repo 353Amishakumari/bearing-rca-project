@@ -1,0 +1,26 @@
+THERMAL CNN — HELD-OUT TEST EVALUATION SUMMARY
+==================================================
+Test samples       : 990
+Held-out folders   : 9 (never used in training or checkpoint selection)
+
+Overall Accuracy: 100.00%
+Macro F1-Score: 100.00%
+
+Class                 Precision   Recall    F1-Score  Support 
+Normal Operation      1.000       1.000     1.000     315     
+Shaft Misalignment    1.000       1.000     1.000     298     
+Broken Rotor Bars     1.000       1.000     1.000     377     
+
+Full classification report (sklearn):
+                    precision    recall  f1-score   support
+
+  Normal Operation       1.00      1.00      1.00       315
+Shaft Misalignment       1.00      1.00      1.00       298
+ Broken Rotor Bars       1.00      1.00      1.00       377
+
+          accuracy                           1.00       990
+         macro avg       1.00      1.00      1.00       990
+      weighted avg       1.00      1.00      1.00       990
+
+
+Split methodology: 3-way experiment-folder-level split, stratified per class. TRAIN folders were used to fit the model; VAL folders were used only during training to select the best checkpoint; TEST folders were never touched until this evaluation, so this accuracy is a genuine held-out estimate. See saved_models/thermal_split_folders.txt for the exact folder assignment.

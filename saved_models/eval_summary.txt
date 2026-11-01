@@ -1,0 +1,13 @@
+Overall Accuracy: 100.00%
+Macro F1-Score: 100.00%
+
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00       474
+  Inner Race       1.00      1.00      1.00       119
+        Ball       1.00      1.00      1.00       118
+  Outer Race       1.00      1.00      1.00       118
+
+    accuracy                           1.00       829
+   macro avg       1.00      1.00      1.00       829
+weighted avg       1.00      1.00      1.00       829
