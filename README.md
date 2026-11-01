@@ -1,5 +1,11 @@
 # Industrial Multimodal Bearing Fault Detection and Root Cause Analysis System
 
+🚀 **[Click Here to Open Live Demo](https://bearing-rca-project-zxlddhgrc9zr5nff3zsyck.streamlit.app/)**
+
+**GitHub Repository:** [View Source Code](https://github.com/353Amishakumari/bearing-rca-project)
+
+---
+
 ## Project Overview
 
 This project presents an Industrial Multimodal Bearing Fault Detection and Root Cause Analysis (RCA) System designed to identify bearing faults using vibration signals and thermal images.
@@ -66,7 +72,7 @@ bearing-rca-project/
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/353Amishakumari/bearing-rca-project.git
 cd bearing-rca-project
 ```
 
@@ -114,6 +120,7 @@ The primary objective is to develop an intelligent and explainable industrial di
 
 ## Author
 
-Amisha Kumari
+**Amisha Kumari**
 
 M.Tech – Computer Science and Engineering (AI & DS)
+KIIT University, Bhubaneswar, Odisha, India
